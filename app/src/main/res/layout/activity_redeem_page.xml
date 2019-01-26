@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RedeemPageActivity">
+
+    <TextView
+        android:id="@+id/textView_Coffee"
+        android:layout_width="268dp"
+        android:layout_height="39dp"
+        android:text="Coffee" />
+
+    <TextView
+        android:id="@+id/textView_Coconut_water"
+        android:layout_width="266dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="84dp"
+        android:text="Coconut Water" />
+
+    <TextView
+        android:id="@+id/textView_Smothie"
+        android:layout_width="264dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="173dp"
+        android:text="Smoothie" />
+
+    <Button
+        android:id="@+id/button_Coffee"
+        android:layout_width="102dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignRight="@+id/textView_Coffee"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="REDEEM"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="271dp" />
+
+    <Button
+        android:id="@+id/button_Coconut_Water"
+        android:layout_width="102dp"
+        android:layout_height="50dp"
+        android:layout_alignRight="@+id/textView_Coconut_water"
+        android:layout_alignBottom="@+id/button_Coffee"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="-81dp"
+        android:text="REDEEM"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="271dp" />
+
+    <Button
+        android:id="@+id/button_Smothie"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button_Coconut_Water"
+        android:layout_alignBottom="@+id/button_Coconut_Water"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="-85dp"
+        android:text="REDEEM"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="271dp" />
+
+
+</RelativeLayout>
